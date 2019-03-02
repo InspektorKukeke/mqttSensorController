@@ -38,12 +38,12 @@ pinMode(led, "OUTPUT")
 
 ##MQTT INFO
 #server info
-server     = "m24.cloudmqtt.com"
-port       = 17643
+server     = ""
+port       = 12345
 
 #user info
-username   = "cvhjodxm"
-password   = "noQYPCm8bCZm"
+username   = ""
+password   = ""
 
 #create mqttclient
 client = mqtt.Client()
